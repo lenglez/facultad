@@ -3,8 +3,7 @@ class Personas{
   String apellidos=null;
   String correo=null;
   String tel=null;
-//mensajito
-  Personas(String linea){
+     Personas(String linea){
     String Temporal[]=linea.split(",");
     this.nombres=Temporal[1];
     this.apellidos=Temporal[2];
